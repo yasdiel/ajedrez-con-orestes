@@ -454,20 +454,20 @@ main {
         height: .7rem;
     }
     .sobremi-img{
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
     }
     .sobremi-card-name{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .sobremi-card-text{
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .sobremi-frase{
         font-size: 1rem;
-        margin-left: 10px;
+        margin-left: 20px;
         padding-left: 10px;
-        margin-top: 1rem;
+        margin-top: 2rem;
         border-left: 4px solid black;
     }
 }
