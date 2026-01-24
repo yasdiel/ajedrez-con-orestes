@@ -360,7 +360,7 @@ main {
 }
 
 #sobremi{
-    min-height: 100dvh;
+    padding-bottom: 2rem;
     background-color: black;
 }
 
