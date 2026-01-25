@@ -523,7 +523,7 @@ figcaption{
 }
 
 
-.div1,.div2,.div3,.div4,.div5{
+.div1,.div2,.div3,.div4,.div5,.div6{
     width: 95%;
     max-width: 600px;
     display: block;
@@ -532,4 +532,5 @@ figcaption{
 .galeria-img{
     width: 100%;
     border: 3px solid white;
+    border-radius: 10px;
 }
