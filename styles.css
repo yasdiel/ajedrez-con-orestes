@@ -413,6 +413,7 @@ main {
     background-color: rgb(220, 212, 212);
     margin-inline: auto;
     border: 2px white solid;
+    transition: 1s ease;
     
 }
 
