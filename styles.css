@@ -274,6 +274,7 @@ main {
     width: 45%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .inicio-title{
@@ -287,6 +288,11 @@ main {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: bold;
     font-style: normal;
+    transform: translateX(-100px);
+    animation-name: moverTitulo;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
 
 }
 
@@ -318,6 +324,11 @@ main {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    transform: translateY(100px);
+    animation-name: moverBtn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
 }
 
 .inicio-btn:hover{
@@ -627,5 +638,21 @@ footer p {
 @media (width<768px){
     footer p{
         font-size: 1.1rem;
+    }
+}
+
+@keyframes moverTitulo  {
+    from {
+
+    } to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moverBtn {
+    from {
+
+    } to {
+        transform: translateY(0);
     }
 }
