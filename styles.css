@@ -366,7 +366,7 @@ main {
     align-items: center;
 }
 
-.sobremi-title, .galeria-title{
+.sobremi-title, .galeria-title, .contacto-title{
     font-size: 2.6rem;
     color: white;
     padding: 2rem;
@@ -381,7 +381,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.sobremi-title::after, .galeria-title::after{
+.sobremi-title::after, .galeria-title::after, .contacto-title::after{
     content: '';
     display: block;
     width: 9rem;
@@ -455,11 +455,11 @@ main {
     .sobremi-left{
         width: 100%;
     }
-    .sobremi-title,.galeria-title{
+    .sobremi-title,.galeria-title,.contacto-title{
         font-size: 1.7rem;
         padding: 1rem;
     }
-    .sobremi-title::after,.galeria-title::after{
+    .sobremi-title::after,.galeria-title::after, .contacto-title::after{
         width: 6.2rem;
         height: .7rem;
     }
@@ -487,7 +487,7 @@ main {
     }
 }
 
-#galeria{
+#galeria, #contacto{
     width: 100%;
     padding-bottom: 2rem;
     background-color: black;
@@ -533,4 +533,60 @@ figcaption{
     width: 100%;
     border: 3px solid white;
     border-radius: 10px;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+textarea{
+    width: 100%;
+    min-height: 250px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+input{
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#enviar{
+    margin-top: 1rem;
+    padding: 5px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+#enviar:hover{
+    cursor: pointer;
+}
+
+@media (width<768px){
+    label {
+        font-size: 1.3rem;
+    }
+    input,textarea{
+        font-size: .9rem;
+        padding: 5px;
+    }
+    #enviar{
+        padding: 3px;
+        font-size: 1rem;
+    }
 }
