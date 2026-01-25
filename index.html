@@ -89,11 +89,9 @@
     </section>
     <section id="contacto">
         <h2 class="contacto-title ocultarIzquierda">Cóntactame</h2>
-        <form action="#">
+        <form onsubmit="return handleSubmit(event)">
             <label for="name">Nombre Completo:</label>
             <input placeholder="Escriba su nombre" required id="name" type="text">
-            <label for="email">Correo Electronico:</label>
-            <input placeholder="jhondoe@example.com" required id="email" type="email">
             <label for="mensaje">Deje Su Mensaje:</label>
             <textarea placeholder="Hola, estoy interesad@ en ..." required name="mensaje" id="mensaje"></textarea>
             <input id="enviar" type="submit" value="Enviar">
@@ -105,5 +103,6 @@
     <script src="app.js">
     </script>
     <script src="animations.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>

@@ -393,6 +393,7 @@ main {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 1s ease;
 }
 
 .sobremi-title::after, .galeria-title::after, .contacto-title::after{
