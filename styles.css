@@ -541,6 +541,7 @@ figcaption{
     width: 95%;
     max-width: 600px;
     display: block;
+    transition: 1s ease;
 }
 
 .galeria-img{

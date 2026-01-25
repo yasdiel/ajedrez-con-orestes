@@ -1,0 +1,19 @@
+.ocultarIzquierda{
+    opacity: 0;
+    transform: translateX(-40px);
+}
+
+.aparecerIzquierda{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.ocultarDerecha{
+    opacity: 0;
+    transform: translateX(40px);
+}
+
+.aparecerDerecha{
+    opacity: 1;
+    transform: translateX(0);
+}
