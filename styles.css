@@ -19,6 +19,7 @@ body {
     background-color: rgb(237, 225, 225);
     overflow: hidden;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 header {
