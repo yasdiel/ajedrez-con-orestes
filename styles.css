@@ -109,6 +109,7 @@ header div h1{
 
 .ic--twotone-menu:hover, .mingcute--close-fill{
     cursor: pointer;
+    padding-right: 2rem;
 }
 
 @media (width<768px){
