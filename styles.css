@@ -495,6 +495,20 @@ main {
     flex-direction: column;
 }
 
+#contacto{
+    background: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0.8)),url(assets/fondo-pc.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (width<768px){
+    #contacto{
+        background: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0.8)),url(assets/fondo-movil.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 .parent {
     display: flex;
     flex-direction: column;
@@ -536,7 +550,7 @@ figcaption{
 }
 
 form {
-    width: 90%;
+    width: 98%;
     max-width: 600px;
     margin-inline: auto;
     display: flex;
@@ -564,6 +578,8 @@ input{
 }
 
 #enviar{
+    background-color: white;
+    color: black;
     margin-top: 1rem;
     padding: 5px;
     font-weight: bold;
@@ -571,6 +587,8 @@ input{
     font-style: normal;
     font-size: 1.4rem;
     text-transform: uppercase;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 #enviar:hover{
@@ -582,12 +600,11 @@ input{
         font-size: 1.3rem;
     }
     input,textarea{
-        font-size: 1.1rem;
+        font-size: .9rem;
         padding: 5px;
     }
     #enviar{
         padding: 3px;
-        font-size: 1.0rem;
+        font-size: 1rem;
     }
-
 }
