@@ -582,11 +582,12 @@ input{
         font-size: 1.3rem;
     }
     input,textarea{
-        font-size: .9rem;
+        font-size: 1.1rem;
         padding: 5px;
     }
     #enviar{
         padding: 3px;
-        font-size: 1rem;
+        font-size: 1.0rem;
     }
+
 }
