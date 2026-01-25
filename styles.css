@@ -366,7 +366,7 @@ main {
     align-items: center;
 }
 
-.sobremi-title{
+.sobremi-title, .galeria-title{
     font-size: 2.6rem;
     color: white;
     padding: 2rem;
@@ -381,7 +381,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.sobremi-title::after{
+.sobremi-title::after, .galeria-title::after{
     content: '';
     display: block;
     width: 9rem;
@@ -455,11 +455,11 @@ main {
     .sobremi-left{
         width: 100%;
     }
-    .sobremi-title{
+    .sobremi-title,.galeria-title{
         font-size: 1.7rem;
         padding: 1rem;
     }
-    .sobremi-title::after{
+    .sobremi-title::after,.galeria-title::after{
         width: 6.2rem;
         height: .7rem;
     }
@@ -483,6 +483,53 @@ main {
     .sobremi-inf{
         width: 90%;
         margin-top: 1.5rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
+}
+
+#galeria{
+    width: 100%;
+    padding-bottom: 2rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-inline: auto;
+    gap: 2rem;
+}
+
+figcaption{
+    color: white;
+    margin-top: .5rem;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+
+@media (width<768px){
+    .parent{
+        gap: 1rem;
+    }
+    figcaption{
+        font-size: 1.0rem;
+    }
+    
+}
+
+
+.div1,.div2,.div3,.div4,.div5{
+    width: 95%;
+    max-width: 600px;
+    display: block;
+}
+
+.galeria-img{
+    width: 100%;
+    border: 3px solid white;
 }
