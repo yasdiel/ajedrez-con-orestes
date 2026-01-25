@@ -503,8 +503,8 @@ main {
 
 @media (width<768px){
     #contacto{
-        background: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0.8)),url(assets/fondo-movil.jpg);
-        background-position: center;
+        background: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0.3)),url(assets/fondo-movil.jpg);
+        background-position: bottom;
         background-size: cover;
     }
 }
@@ -605,6 +605,23 @@ input{
     }
     #enviar{
         padding: 3px;
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+footer{
+    background-color: white;
+    padding: .5rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (width<768px){
+    footer p{
+        font-size: 1.1rem;
     }
 }

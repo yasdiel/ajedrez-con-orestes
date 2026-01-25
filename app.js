@@ -1,6 +1,8 @@
 const button = document.getElementById('button')
 const nav = document.getElementById('nav')
 let abierto = false
+let footer = document.getElementById('footer-p')
+footer.innerText = `©${new Date().getFullYear()} Todos los derechos reservados.`
 
 button.addEventListener('click', ()=>{
     
